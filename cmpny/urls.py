@@ -20,6 +20,7 @@ from jobs import views
 
 urlpatterns = [
     path('', views.index, name='home'),
+    path('login'),
     path('jobs/', include('jobs.urls')),
     path('admin/', admin.site.urls),
 ]
